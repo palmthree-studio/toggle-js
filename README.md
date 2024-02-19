@@ -25,11 +25,11 @@ Place a `toggle-js` element in your HTML file where you want the toggle to appea
 ```
 ### 2\. Initialize ToggleJS
 
-Include the `togglejs.js` file in your project and initialize `ToggleJS` by passing the element selector and an options object.
+Include the `toggle-js.js` file in your project and initialize `ToggleJS` by passing the element selector and an options object.
 
 ```html
 
-<script src="path/to/togglejs.js"></script>
+<script src="path/to/toggle-js.js"></script>
 <script> // Function to call when the toggle state changes
   function myPersonalMethod(checked) {
     console.log('Toggle is now:', checked ? 'ON' : 'OFF');
